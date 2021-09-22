@@ -16,7 +16,7 @@ const hae = function (event) {
         <a href="${sarja.show.officialSite ? sarja.show.officialSite : sarja.show.url
                     }">Linkki kotisivulle</a>
         <figure>
-            <img src="${sarja.show.image ? sarja.show.image.medium : 'tile.png'
+            <img src="${sarja.show.image ? sarja.show.image.medium : 'not_found.gif'
                     }" alt="${sarja.show.name}">
             <figcaption>${sarja.show.name}</figcaption>
         </figure>
